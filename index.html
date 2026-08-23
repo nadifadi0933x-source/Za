@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>سایت من</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: 'Tahoma', sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            color: #333;
+        }
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        header {
+            text-align: center;
+            padding: 50px 0;
+            color: white;
+        }
+        header h1 {
+            font-size: 2.8em;
+            margin-bottom: 10px;
+        }
+        header p {
+            font-size: 1.2em;
+            opacity: 0.9;
+        }
+        .card {
+            background: white;
+            border-radius: 12px;
+            padding: 30px;
+            margin-bottom: 20px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+        }
+        .card h2 {
+            color: #667eea;
+            margin-bottom: 15px;
+            font-size: 1.4em;
+        }
+        .card p {
+            line-height: 1.7;
+            margin-bottom: 10px;
+        }
+        .btn {
+            display: inline-block;
+            background: #667eea;
+            color: white;
+            padding: 12px 30px;
+            border-radius: 8px;
+            text-decoration: none;
+            font-weight: bold;
+            transition: transform 0.2s, background 0.2s;
+            border: none;
+            cursor: pointer;
+            font-size: 1em;
+        }
+        .btn:hover {
+            background: #5568d3;
+            transform: translateY(-2px);
+        }
+        .features {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+            margin-top: 20px;
+        }
+        .feature-item {
+            background: #f8f9fa;
+            padding: 20px;
+            border-radius: 8px;
+            text-align: center;
+        }
+        .feature-item h3 {
+            margin-bottom: 8px;
+            color: #667eea;
+        }
+        footer {
+            text-align: center;
+            padding: 30px 0;
+            color: white;
+            opacity: 0.8;
+        }
+        @media (max-width: 600px) {
+            header h1 { font-size: 2em; }
+            .card { padding: 20px; }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>🌐 سایت من</h1>
+            <p>به سایت شخصی من خوش اومدین</p>
+        </header>
+
+        <div class="card">
+            <h2>درباره من</h2>
+            <p>سلام! من یه توسعه‌دهنده وب هستم و در اینجا می‌تونی پروژه‌ها و اطلاعاتم رو ببینی.</p>
+            <p>علاقه‌مند به یادگیری تکنولوژی‌های جدید و ساخت اپلیکیشن‌های زیبا هستم.</p>
+        </div>
+
+        <div class="card">
+            <h2>ویژگی‌ها</h2>
+            <div class="features">
+                <div class="feature-item">
+                    <h3>طراحی زیبا</h3>
+                    <p>استفاده از جزئیات دقیق در طراحی رابط کاربری</p>
+                </div>
+                <div class="feature-item">
+                    <h3>واکنش‌گرا</h3>
+                    <p>سازگار با تمام دستگاه‌ها و مرورگرها</p>
+                </div>
+                <div class="feature-item">
+                    <h3>سریع</h3>
+                    <p>بهینه‌سازی شده برای سرعت بالا</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="card" style="text-align: center;">
+            <h2>تماس با من</h2>
+            <p> آماده همکاری و پروژه‌های جدید هستم!</p>
+            <a href="mailto:contact@example.com" class="btn">ارسال ایمیل</a>
+        </div>
+
+        <footer>
+            <p>&copy; 2024 سایت من. تمامی حقوق محفظه است.</p>
+        </footer>
+    </div>
+</body>
+</html>
