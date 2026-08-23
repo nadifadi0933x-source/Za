@@ -1,0 +1,141 @@
+:root {
+  --font-family: 'Vazirmatn', system-ui, -apple-system, sans-serif;
+  --direction: rtl;
+  --text-align: right;
+}
+
+.rtl-flip {
+  transform: scaleX(-1);
+}
+
+.ltr-flip {
+  transform: scaleX(1);
+}
+
+.me-auto {
+  margin-right: auto;
+  margin-left: 0;
+}
+
+.ms-auto {
+  margin-left: auto;
+  margin-right: 0;
+}
+
+.pe-4 {
+  padding-left: 1rem;
+  padding-right: 0;
+}
+
+.ps-4 {
+  padding-right: 1rem;
+  padding-left: 0;
+}
+
+.border-s {
+  border-left-width: 1px;
+  border-right-width: 0;
+}
+
+.border-e {
+  border-right-width: 1px;
+  border-left-width: 0;
+}
+
+.rounded-s {
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+  border-top-left-radius: 0.5rem;
+  border-bottom-left-radius: 0.5rem;
+}
+
+.rounded-e {
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+  border-top-right-radius: 0.5rem;
+  border-bottom-right-radius: 0.5rem;
+}
+
+.text-start {
+  text-align: right;
+}
+
+.text-end {
+  text-align: left;
+}
+
+.rotate-180 {
+  transform: rotate(180deg);
+}
+
+.-rotate-180 {
+  transform: rotate(-180deg);
+}
+
+.origin-bottom-right {
+  transform-origin: bottom right;
+}
+
+.origin-top-right {
+  transform-origin: top right;
+}
+
+[dir="rtl"] {
+  direction: rtl;
+  text-align: right;
+}
+
+[dir="ltr"] {
+  direction: ltr;
+  text-align: left;
+}
+
+.rtl\:text-right {
+  text-align: right;
+}
+
+.rtl\:text-left {
+  text-align: left;
+}
+
+.rtl\:ml-0 {
+  margin-left: 0;
+}
+
+.rtl\:mr-auto {
+  margin-right: auto;
+}
+
+.rtl\:pl-4 {
+  padding-left: 1rem;
+  padding-right: 0;
+}
+
+.rtl\:pr-4 {
+  padding-right: 1rem;
+  padding-left: 0;
+}
+
+.rtl\:border-l {
+  border-left-width: 1px;
+  border-right-width: 0;
+}
+
+.rtl\:border-r {
+  border-right-width: 1px;
+  border-left-width: 0;
+}
+
+.rtl\:rounded-l {
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+  border-top-right-radius: 0.5rem;
+  border-bottom-right-radius: 0.5rem;
+}
+
+.rtl\:rounded-r {
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+  border-top-left-radius: 0.5rem;
+  border-bottom-left-radius: 0.5rem;
+}
